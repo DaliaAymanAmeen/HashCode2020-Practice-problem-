@@ -25,7 +25,7 @@ int main()
 		//cout << "m: " << m << endl << "n :" << n << endl << endl;
 		if (infile.fail())
 		{
-			cout << "mafeesh 7aga" << endl;
+			cout << "there is no such file" << endl;
 		}
 
     int score=m; //hna2as mnu kol mara 3lshan at2aked eni msh hakhod aktr mn el max slices
