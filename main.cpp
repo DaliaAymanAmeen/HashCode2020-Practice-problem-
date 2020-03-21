@@ -28,14 +28,14 @@ int main()
 			cout << "there is no such file" << endl;
 		}
 
-    int score=m; //hna2as mnu kol mara 3lshan at2aked eni msh hakhod aktr mn el max slices
-    int max=0; //3lshan ashof anhi iteration ahsan
-    int sum=0; //3lshan ashof anhi iteration ahsan
-    int *newarr = new int[n]; //b7ot feha el index kol mara
-    int *lastarr = new int[n]; //b7ot feh el index law el iteration di heya el max fe3ln
+    int score=m; //this variable to make sure that i will not take more than max slices
+    int max=0; 
+    int sum=0; 
+    int *newarr = new int[n]; //to put indices in it
+    int *lastarr = new int[n]; //the indices of best iteraton 
     int k=0;
-    int counter=0; //khadt kam type mn el pizza
-    int newcounter=0; //khadt kam type mn el pizza law el iteration max fe3ln
+    int counter=0; //how many types of pizza i took
+    int newcounter=0; //how many types of pizza i took in best iteration
 
     for(int i=n-1;i>=0;i--) //iterations
         {
